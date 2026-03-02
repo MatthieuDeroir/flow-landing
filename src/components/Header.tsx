@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
+import { Logo } from "./Logo";
 
 const navLinks = [
   { label: "Features", href: "#features" },
@@ -19,11 +19,8 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 pt-4">
         <nav className="glass-strong flex h-14 items-center justify-between rounded-2xl px-6">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5">
-            <Image src="/icon.svg" alt="Flow" width={28} height={28} />
-            <span className="font-[family-name:var(--font-poppins)] text-base font-semibold tracking-tight text-white">
-              Flow
-            </span>
+          <a href="#" className="flex items-center">
+            <Logo size={80} />
           </a>
 
           {/* Desktop nav */}

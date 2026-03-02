@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Logo } from "./Logo";
 
 const footerLinks = {
   Product: [
@@ -26,11 +26,8 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <div className="mb-5 flex items-center gap-2.5">
-              <Image src="/icon.svg" alt="Flow" width={24} height={24} />
-              <span className="font-[family-name:var(--font-poppins)] text-lg font-semibold text-white">
-                Flow
-              </span>
+            <div className="mb-5">
+              <Logo size={72} />
             </div>
             <p className="text-sm leading-relaxed text-slate-500">
               Your wellbeing companion.
