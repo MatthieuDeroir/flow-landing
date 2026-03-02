@@ -1,0 +1,24 @@
+{
+  "name": "flow-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "npx serve@latest out -l 3001"
+  },
+  "dependencies": {
+    "next": "^15.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "framer-motion": "^12.12.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/node": "^22.0.0"
+  }
+}
