@@ -1,3 +1,4 @@
+import { FlowBackground } from "@/components/FlowBackground";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
@@ -11,8 +12,9 @@ import { Footer } from "@/components/Footer";
 export default function LandingPage() {
   return (
     <>
+      <FlowBackground />
       <Header />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <Features />
         <AnalyticsShowcase />
