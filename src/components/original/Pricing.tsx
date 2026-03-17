@@ -23,7 +23,7 @@ const plans = [
   },
   {
     name: "Monthly",
-    price: "3.99",
+    price: "1.39",
     period: "/month",
     description: "Advanced analytics & premium features",
     features: [
@@ -41,7 +41,7 @@ const plans = [
   },
   {
     name: "Lifetime",
-    price: "39.99",
+    price: "13.89",
     period: "one-time",
     description: "Pay once, own forever. Best value.",
     features: [
@@ -101,8 +101,9 @@ export function Pricing() {
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-400">
-            Flow is free for all tracking features. Premium unlocks the
-            correlations and predictive insights that make the difference.
+            Flow is free for all tracking features. Premium unlocks advanced
+            analytics — and a lifetime option that&apos;s cheaper than one month
+            of most competitors.
           </p>
         </motion.div>
 

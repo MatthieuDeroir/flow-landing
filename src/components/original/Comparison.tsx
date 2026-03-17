@@ -27,7 +27,7 @@ const rows: ComparisonRow[] = [
   { feature: "Relax / breathing exercises", flow: true, daylio: false, bearable: false, pixels: false },
   { feature: "Export (CSV/JSON)", flow: true, daylio: true, bearable: true, pixels: false },
   { feature: "Open source", flow: true, daylio: false, bearable: false, pixels: false },
-  { feature: "Lifetime price", flow: "€39.99", daylio: "€29.99", bearable: "€59.99", pixels: "Free" },
+  { feature: "Lifetime price", flow: "€13.89", daylio: "€29.99", bearable: "€59.99", pixels: "Free" },
 ];
 
 function CellContent({ value, isFlow }: { value: CellValue; isFlow?: boolean }) {

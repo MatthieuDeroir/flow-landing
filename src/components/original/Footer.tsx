@@ -1,4 +1,4 @@
-import { Logo } from "./Logo";
+import { Logo } from "../Logo";
 
 const footerLinks = {
   Product: [
@@ -30,9 +30,9 @@ export function Footer() {
               <Logo size={72} />
             </div>
             <p className="text-sm leading-relaxed text-slate-500">
-              You contain multitudes.
+              Your wellbeing companion.
               <br />
-              Now you can see them.
+              Private by design.
             </p>
           </div>
 

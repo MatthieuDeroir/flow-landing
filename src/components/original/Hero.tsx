@@ -29,7 +29,7 @@ export function Hero() {
         >
           <span className="glass mb-8 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-slate-300">
             <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/50" />
-            Private by design &middot; Offline by default
+            100% Private &middot; 100% Offline &middot; 100% Yours
           </span>
         </motion.div>
 
@@ -39,12 +39,12 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-8 font-[family-name:var(--font-poppins)] text-5xl font-bold leading-[1.1] tracking-tight text-white sm:text-6xl lg:text-7xl"
         >
-          You contain{" "}
-          <span className="bg-gradient-to-r from-primary-400 via-secondary-400 to-accent-400 bg-clip-text text-transparent">
-            multitudes.
-          </span>
+          Your Wellbeing.
           <br />
-          Now you can see them.
+          <span className="bg-gradient-to-r from-primary-400 via-secondary-400 to-accent-400 bg-clip-text text-transparent">
+            Your Data.
+          </span>{" "}
+          Your Device.
         </motion.h1>
 
         <motion.p
@@ -53,8 +53,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-slate-400 sm:text-xl"
         >
-          Track your mood, energy, sleep, habits, and more — and discover the
-          patterns that make you, you. One app to understand the whole you.
+          Track mood, sleep, hydration, medication, exercise and more — all in
+          one beautiful app that lives on your machine. No cloud, no accounts,
+          no compromises.
         </motion.p>
 
         <motion.div

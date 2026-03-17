@@ -76,15 +76,15 @@ export function Privacy() {
           className="mx-auto mb-20 max-w-2xl text-center"
         >
           <h2 className="mb-5 font-[family-name:var(--font-poppins)] text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Track Without{" "}
+            Privacy is Not a Feature.{" "}
             <span className="bg-gradient-to-r from-emerald-400 to-primary-400 bg-clip-text text-transparent">
-              Fear of Judgment.
+              It&apos;s the Foundation.
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-400">
-            Your medication, your cravings, your darkest moods — the more
-            honest you are, the better the insights. That&apos;s why everything
-            stays on your device. No cloud, no accounts, no one watching.
+            We built Flow for people who care about their mental health{" "}
+            <em className="text-slate-300">and</em> their privacy. Your most
+            intimate data deserves the highest protection.
           </p>
         </motion.div>
 

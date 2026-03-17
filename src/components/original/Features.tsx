@@ -166,14 +166,14 @@ export function Features() {
           className="mx-auto mb-20 max-w-2xl text-center"
         >
           <h2 className="mb-5 font-[family-name:var(--font-poppins)] text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            12+ Dimensions.{" "}
+            Everything You Need to{" "}
             <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">
-              One Picture.
+              Understand Yourself
             </span>
           </h2>
           <p className="text-lg leading-relaxed text-slate-400">
-            Each dimension you track adds depth to the picture. Together, they
-            reveal what no single tracker ever could.
+            12+ tracking dimensions in one unified app. No more juggling
+            multiple apps — Flow brings it all together.
           </p>
         </motion.div>
 
