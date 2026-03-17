@@ -26,7 +26,6 @@ const rows: ComparisonRow[] = [
   { feature: "Desktop app", flow: true, daylio: false, bearable: false, pixels: false },
   { feature: "Relax / breathing exercises", flow: true, daylio: false, bearable: false, pixels: false },
   { feature: "Export (CSV/JSON)", flow: true, daylio: true, bearable: true, pixels: false },
-  { feature: "Open source", flow: true, daylio: false, bearable: false, pixels: false },
   { feature: "Lifetime price", flow: "€39.99", daylio: "€29.99", bearable: "€59.99", pixels: "Free" },
 ];
 
